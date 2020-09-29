@@ -1,0 +1,36 @@
+.container {
+  height: 100%;
+  padding-top: 20px;
+  margin-bottom: 200px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.card {
+  margin-bottom: 20px;
+  min-height: 200px;
+}
+
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.input-group-text {
+  padding: 0;
+  height: 38px;
+}
+
+:host ::ng-deep .mat-icon-button {
+  width: 38px;
+  height: 38px;
+}
+
+.sub-title {
+  font-size: 10px;
+}
