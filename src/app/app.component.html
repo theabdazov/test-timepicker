@@ -79,7 +79,7 @@
                 <input type="text"
                        placeholder="Выбор даты"
                        class="form-control"
-                       [matDatepicker]="matDatepicker1">
+                       [matDatepicker]="matDatepicker1" readonly (click)="matDatepicker1.open()">
                 <div class="input-group-append">
                   <div class="input-group-text">
                     <mat-datepicker-toggle matSuffix [for]="matDatepicker1"></mat-datepicker-toggle>
